@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — cyber-shorts-uploader</title>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.6;
+         max-width: 720px; margin: 40px auto; padding: 0 20px; color: #1a1a1a; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 1.8em; }
+  code { background: #f2f2f2; padding: 1px 5px; border-radius: 4px; }
+  footer { margin-top: 3em; font-size: .9rem; color: #666; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p><strong>App:</strong> cyber-shorts-uploader &nbsp;•&nbsp; <strong>Effective date:</strong> 4 September 2026</p>
+
+<p>cyber-shorts-uploader ("the app") is a personal command-line tool used by its
+developer to publish their own short-form videos to their own social media
+accounts through official platform APIs (the YouTube Data API and the TikTok
+Content Posting API). It is not a consumer product and is not offered to the
+public.</p>
+
+<h2>What the app accesses</h2>
+<ul>
+  <li><strong>OAuth tokens</strong> for the developer's own YouTube and TikTok accounts, obtained through each platform's standard consent flow.</li>
+  <li><strong>Video files and their metadata</strong> (title, description, tags, caption file, thumbnail) that the developer explicitly chooses to upload.</li>
+  <li><strong>Basic account information</strong> returned by the APIs (for example the channel or creator username, and the list of allowed privacy settings) used only to complete an upload.</li>
+</ul>
+
+<h2>How data is stored and used</h2>
+<ul>
+  <li>Tokens are stored locally in a <code>.env</code> file on the developer's own computer. The app has <strong>no server, no database, and no hosted component</strong>.</li>
+  <li>Data is used solely to authenticate to the platform APIs and to upload the developer's own content.</li>
+  <li>Nothing is sold, shared with third parties, used for advertising, or used for analytics or profiling.</li>
+  <li>The app does not collect data from any other users. It has no other users.</li>
+</ul>
+
+<h2>Retention and deletion</h2>
+<p>Locally stored tokens persist until the developer deletes the local files or
+revokes the app's access. You can revoke access at any time:</p>
+<ul>
+  <li><strong>Google / YouTube:</strong> <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a></li>
+  <li><strong>TikTok:</strong> TikTok app → Settings and privacy → Security &amp; permissions → Manage app permissions</li>
+</ul>
+
+<h2>Data security</h2>
+<p>Because the app runs only on the developer's machine and transmits data only
+to Google and TikTok over HTTPS, exposure is limited to that single device.
+Credentials are kept out of version control.</p>
+
+<h2>Children</h2>
+<p>The app is not directed to children and processes no data about children.</p>
+
+<h2>Changes</h2>
+<p>Any changes to this policy will be posted at this URL with an updated effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:s.m.m.chishti@gmail.com">s.m.m.chishti@gmail.com</a></p>
+
+<footer>This page exists to satisfy the privacy-policy URL requirement for the app's
+TikTok for Developers and Google OAuth registrations.</footer>
+</body>
+</html>
